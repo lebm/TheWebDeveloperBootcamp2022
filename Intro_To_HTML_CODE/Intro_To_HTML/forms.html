@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <!-- It is Submit but it is outside a form -->
+    <button>External button</button>
+    <form action="/tacos">
+        <label for="username">Enter a Username</label>
+        <input id="username" type="text" placeholder="username" name="un">
+        <label for="password">Enter a password</label>
+        <input id="password" type="password" placeholder="Enter password" name="pw">
+        <label for="color">Pick a colot</label>
+        <input id="color" type="color" name="color">
+        <label for="number">Enter a number</label>
+        <input id="number" type="number" placeholder="Enter a number" name="number">
+        <!-- type submit is the default -->
+        <button type="submit">Submit</button>
+        <button type="button">Do not Submit</button>
+    </form>
+
+</body>
+
+</html>
